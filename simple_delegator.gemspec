@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["wfarr@github.com"]
   gem.description   = %q{Adds simple delegation to all Objects.}
   gem.summary       = %q{Adds simple delegation to all Objects.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/wfarr/simple_delegator"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
