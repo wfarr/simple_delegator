@@ -38,7 +38,7 @@ end
 f = Foo.new
 
 f.hello    #=> "hello"
-f.goodbye  #=> "goodbye"
+f.goodbye  #=> "hello"
 f.whatever #=> "fiiiiiine"
 ```
 
