@@ -34,6 +34,12 @@ end
 class Bar
   def hello; puts "hello"; end
 end
+
+f = Foo.new
+
+f.hello    #=> "hello"
+f.goodbye  #=> "goodbye"
+f.whatever #=> "fiiiiiine"
 ```
 
 ## Contributing
